@@ -23,10 +23,9 @@ const data = [
     y: [...values.y],
     z: [...values.z],
     opacity: 0.8,
-    type: "surface",
+    type: "mesh3d",
     color: "#34eb67",
   },
-  {},
 ];
 
 export default function Index() {
@@ -51,7 +50,7 @@ export default function Index() {
         </p>
         <Plot
           data={data}
-          layout={{ title: "Please work!", font: { size: 18 } }}
+          layout={{ title: "Answer:", font: { size: 13 } }}
           config={{ responsive: true }}
         />
       </Container>
