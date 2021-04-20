@@ -9,6 +9,8 @@ export default function About() {
       <Container className="pt-5" style={{ flex: "1" }}>
         <BreadcrumbSelect firstIsActive={false} secondIsActive={true} />
 
+        <a href="https://github.com/Pipirok/IndWork">Source code</a>
+
         <h1 className="h1">A bit about creating this project</h1>
 
         <p className="lead">

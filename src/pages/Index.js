@@ -1,7 +1,7 @@
 import { Container } from "reactstrap";
 import createPlotlyComponent from "react-plotly.js/factory";
 
-import Plotly from "plotly.js";
+import Plotly from "plotly.js-gl3d-dist";
 
 import Footer from "../components/Footer";
 import BreadcrumbSelect from "../components/BreadcrumbSelect";
