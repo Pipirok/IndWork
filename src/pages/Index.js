@@ -49,8 +49,9 @@ export default function Index() {
           </code>
         </p>
         <Plot
+          style={{ maxWidth: "100vw" }}
           data={data}
-          layout={{ title: "Answer:", font: { size: 13 } }}
+          layout={{ title: "Answer:", font: { size: 10 } }}
           config={{ responsive: true }}
         />
       </Container>
